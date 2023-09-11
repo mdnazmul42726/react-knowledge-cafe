@@ -1,3 +1,4 @@
+import Profile from '../../assets/images/profile.png'
 const Header = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Header = () => {
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
-                                    <img src="https://s3-alpha-sig.figma.com/img/c7d5/7ddb/0cce11f75d37450988cb174c61b28518?Expires=1695600000&Signature=LmbEsVvXkfTmU8S83ZEPBzblsvSd0UOzAJXIRH7ckqCfCsxHOsD0nZlvWHzd1VFGe3vl3D3PVF9gK972OaxbFwG1DW-QcyOsM494oOVm1bd~Yy30MEZ911qgrFVCceQEpcDkLKA4kiEOz00V4DzuQWsayw9Ok7PtkRPpjZoWxLxAIoysGa3~9dnuAdqyQFGI6keqYF9wrWfyvNrfu6mh2Bhauhi76MVZ5GL79ANpLhBey329Cmk6gU-59sQYUKnqjrWwG4EwSQaGKjc5n7PT7OgYxplJXCAeXxyLbssbtx5m6xD3X4HLYmXRo-jn8qc81gDLECgFoBLFkYbxzFMEhQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                                    <img src={Profile}/>
                                 </div>
                             </label>
                             <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
