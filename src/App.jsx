@@ -1,9 +1,12 @@
+import Blogs from "./components/Blog/Blogs"
+import Header from "./components/Header/Header"
+
 function App() {
 
   return (
     <>
-    <h1 className="text-center">hello React</h1>
-    
+      <Header />
+      <Blogs />
     </>
   )
 }
