@@ -1,5 +1,6 @@
-const Blog = ({ blog, bookmarkBtnHandleClick }) => {
-    const { cover, title, author_img, author, posted_date, reading_time, hashtags } = blog;
+const Blog = ({ blog, bookmarkBtnHandleClick, readBtnHandleClick }) => {
+    const {id, cover, title, author_img, author, posted_date, reading_time, hashtags } = blog;
+
 
     return (
         <div>
@@ -30,7 +31,7 @@ const Blog = ({ blog, bookmarkBtnHandleClick }) => {
                     <p>#{hashtags[0]} </p>
                     <p>#{hashtags[1]} </p>
                 </div>
-                <button className="text-[#6047EC] mt-3 ml-8"><u>Mark as read</u></button>
+                <button className="text-[#6047EC] mt-3 ml-8" onClick={() => readBtnHandleClick(id, reading_time)}><u>Mark as read</u></button>
             </div>
         </div>
     );
